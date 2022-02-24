@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Open Iron door room
+  m_EditorClassIdentifier: 
+  description: This large room is dark and made of stone and tiles.
+  roomName: open iron door room
+  exits:
+  - keyString: north
+    exitDescription: There is a hole in the wall, covered in spiderwebs to the north.
+    valueRoom: {fileID: 11400000, guid: 2ddda34100eb514478cd52d0e0c0eca3, type: 2}
+  - keyString: west
+    exitDescription: To the west, torchlight comes through a doorway.
+    valueRoom: {fileID: 11400000, guid: b468bc710d747e34ca6e3927a3c24adf, type: 2}
+  - keyString: east
+    exitDescription: The iron doorway to the east stands dark and imposing.
+    valueRoom: {fileID: 11400000, guid: 6e4d5eec8fb73c9448820540e0643429, type: 2}
+  - keyString: south
+    exitDescription: To the south is the entrance to the dungeon.
+    valueRoom: {fileID: 11400000, guid: 1a873362fd929b4498cd142a8672ab94, type: 2}
+  roomSprite: {fileID: 21300000, guid: 790fcf07cfa870542876b993480e8a4d, type: 3}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1cb5a41d8d769f345bb879f8743575ca, type: 2}
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 

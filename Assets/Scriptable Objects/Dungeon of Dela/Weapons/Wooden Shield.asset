@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3c3cba2e672194985cf5ade9fd414a, type: 3}
+  m_Name: Wooden Shield
+  m_EditorClassIdentifier: 
+  noun: shield
+  description: A basic shield sits discarded in the corner
+  showsDescriptionInRoom: 1
+  inventoryDescription: Description for inventory tooltips
+  itemSprite: {fileID: 21300000, guid: 6d9e6f4761c62114088bf447b3bafc47, type: 3}
+  canPickup: 1
+  playOnPickup: {fileID: 0}
+  interactions:
+  - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
+    textResponse: The metal on the shield is just starting to rot, but should still
+      be usable
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
+    textResponse: You strap the shield onto your arm
+    actionResponse: {fileID: 0}
+  damageRange: {x: 0, y: 0}
+  blockAmount: 4
+  maxDurability: 6
+  currentDurability: 2

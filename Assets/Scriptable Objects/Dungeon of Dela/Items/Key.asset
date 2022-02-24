@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71659708ed0b14240b69fb42527ff3b5, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  noun: key
+  description: A key on a chain hangs around her neck
+  showsDescriptionInRoom: 1
+  inventoryDescription: An iron key
+  itemSprite: {fileID: 21300000, guid: 06399aca05650054592c4322e29c8c07, type: 3}
+  canPickup: 1
+  playOnPickup: {fileID: 0}
+  interactions:
+  - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
+    textResponse: The key seems to be made of iron.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
+    textResponse: You take the key.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 7530977783213b24995a126afecc6c9b, type: 2}
+    textResponse: You use the key on the iron door. The heavy door creaks open.
+    actionResponse: {fileID: 11400000, guid: c1d65cb54263fcc49bc21805a4775fce, type: 2}

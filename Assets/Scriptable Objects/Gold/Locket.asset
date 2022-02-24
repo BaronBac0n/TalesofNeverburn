@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d8ff3b211d28b418bf9e6a009ecdaa, type: 3}
+  m_Name: Locket
+  m_EditorClassIdentifier: 
+  noun: locket
+  description: 
+  showsDescriptionInRoom: 0
+  inventoryDescription: Description for inventory tooltips
+  itemSprite: {fileID: 0}
+  canPickup: 1
+  playOnPickup: {fileID: 0}
+  interactions:
+  - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
+    textResponse: The locket is gold, and as you open it, you can see there is a
+      painting of a young elven man, smiling brightly. Engraved on the other side
+      are the words "Forever loving you - Quion".
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
+    textResponse: You take the locket
+    actionResponse: {fileID: 0}
+  randomRange: {x: 20, y: 20}

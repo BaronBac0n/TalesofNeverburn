@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Tomb Room
+  m_EditorClassIdentifier: 
+  description: In this small room, there is a mummified body. Around the body are
+    bunches of flowers.
+  roomName: 
+  exits:
+  - keyString: west
+    exitDescription: The iron door is to the west.
+    valueRoom: {fileID: 11400000, guid: 7bc32d0417c8c71469e3367d8875bf74, type: 2}
+  roomSprite: {fileID: 21300000, guid: 6955fd75f2f3a974bbd589e7d71ad39a, type: 3}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 09570a950b83ba448b19ea037779ac3e, type: 2}
+  - {fileID: 11400000, guid: 85b915da60df8954d9f9a72125546339, type: 2}
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 
