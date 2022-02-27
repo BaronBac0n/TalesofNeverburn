@@ -9,6 +9,14 @@ public class StatUpgrade : MonoBehaviour
     public int dexterity;
     public int maxHealth;
 
+    public float strPrice;
+    public float dexPrice;
+    public float vigPrice;
+    public int currentSTR;
+    public int currentDEX;
+    public int currentVIG;
+
+    public float increaseValue;
     public int gold;
     public Text goldText;
 
@@ -18,21 +26,33 @@ public class StatUpgrade : MonoBehaviour
 
     private void Start()
     {
+        strPrice = 60;
+        dexPrice = 60;
+        vigPrice = 60;
+        increaseValue = 1.6f;
+
+        currentSTR = ((int)strPrice);
+        currentDEX = ((int)dexPrice);
+        currentVIG = ((int)vigPrice);
+
         //setting the cost values
-        STRcost.text = strength.ToString();
-        DEXcost.text = dexterity.ToString();
-        VIGcost.text = maxHealth.ToString();
+        STRcost.text = currentSTR.ToString();
+        DEXcost.text = currentDEX.ToString();
+        VIGcost.text = currentVIG.ToString();
 
         goldText.text = gold.ToString();
 }
 
     public void StrUpgrade()
     {
-        if (gold >= strength)
+        if (gold >= currentSTR)
         {
-            gold -= strength;
+            gold -= currentSTR;
             strength++;
-            STRcost.text = strength.ToString();
+
+            strPrice = strPrice * increaseValue;
+            currentSTR = ((int)strPrice);
+            STRcost.text = currentSTR.ToString();
             goldText.text = gold.ToString();
         }
         else
@@ -44,11 +64,14 @@ public class StatUpgrade : MonoBehaviour
 
     public void DexUpgrade()
     {
-        if (gold >= dexterity)
+        if (gold >= currentDEX)
         {
-            gold -= dexterity;
+            gold -= currentDEX;
             dexterity++;
-            DEXcost.text = dexterity.ToString();
+
+            dexPrice = dexPrice * increaseValue;
+            currentDEX = ((int)dexPrice);
+            DEXcost.text = currentDEX.ToString();
             goldText.text = gold.ToString();
         }
         else
@@ -60,11 +83,14 @@ public class StatUpgrade : MonoBehaviour
 
     public void VigUpgrade()
     {
-        if (gold >= maxHealth)
+        if (gold >= currentVIG)
         {
-            gold -= maxHealth;
+            gold -= currentVIG;
             maxHealth++;
-            VIGcost.text = maxHealth.ToString();
+
+            vigPrice = vigPrice * increaseValue;
+            currentVIG = ((int)vigPrice);
+            VIGcost.text = currentVIG.ToString();
             goldText.text = gold.ToString();
         }
         else
