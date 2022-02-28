@@ -15,13 +15,14 @@ MonoBehaviour:
   description: You're in the main courtyard of Neverburn
   roomName: courtyard
   exits:
-  - keyString: shop
-    exitDescription: There is a SHOP
-    valueRoom: {fileID: 11400000, guid: 8e7caa1cc6387ff49ab0f8c16ed23fff, type: 2}
+  - keyString: smith
+    exitDescription: There is a SMITH
+    valueRoom: {fileID: 11400000, guid: a114cb3bb1834684185ed42a51639524, type: 2}
+  - keyString: tutor
+    exitDescription: There is a TUTOR
+    valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
   roomSprite: {fileID: 0}
   interactableObjectsInRoom: []
   enemies: []
   checkIfItemsNeeded: 0
   objectNeeded: 
-  activatesUI: 0
-  UIToActivate: {fileID: 0}

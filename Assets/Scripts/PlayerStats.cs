@@ -44,6 +44,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         gController = GameController.instance;
+        AddGold(0);
     }
 
     public void TakeDamage(int amount, GameController controller, Enemy attackingEnemy)
@@ -110,11 +111,22 @@ public class PlayerStats : MonoBehaviour
         if (objectToAdd.GetType().ToString() == "Gold")
         {
             Gold goldsack = (Gold)objectToAdd;
-            gold += goldsack.AddGold();
-            goldDisplay.text = gold.ToString();
+            AddGold(goldsack.AddGold());
             RemoveItemFromInventory(goldsack);
             gController.GetComponent<TextInput>().InputComplete();
         }
+    }
+
+    public void AddGold(int amount)
+    {
+        gold += amount;
+        goldDisplay.text = gold.ToString();
+    }
+
+    public void RemoveGold(int amount)
+    {
+        gold -= amount;
+        goldDisplay.text = gold.ToString();
     }
 
     public void RemoveItemFromInventory(InteractableObject objectToRemove)

@@ -23,4 +23,16 @@ public class EquipmentShopScript : MonoBehaviour
     {
         shopPanel.SetActive(true);
     }
+
+    public void HideShopPanel()
+    {
+        shopPanel.SetActive(false);
+    }
+
+    public void LeaveShop(Room roomToChangeTo)
+    {
+        HideShopPanel();
+        GameController.instance.roomNavigation.currentRoom = roomToChangeTo;
+        GameController.instance.DisplayRoomText();
+    }
 }

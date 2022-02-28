@@ -42,8 +42,7 @@ public class GameController : MonoBehaviour
     public Text playerHealthDisplay;
 
     public GameObject buttonsPanel;
-
-
+    
     [Space]
     [Header("Audio")]
     public AudioClip itemPickup;
@@ -77,6 +76,8 @@ public class GameController : MonoBehaviour
     public void DisplayRoomText()
     {
 
+        Room currentRoom = roomNavigation.currentRoom;
+
         ClearCollectionsForNewRoom();
         UnpackRoom();
 
@@ -84,18 +85,35 @@ public class GameController : MonoBehaviour
 
         string joinedEnemyDesriptions = string.Join("\n", enemiesAliveInRoom.ToArray());
 
-        string combinedText = roomNavigation.currentRoom.description + "\n" + joinedEnemyDesriptions + "\n" + joinedInteractionDesriptions;
+        string combinedText = currentRoom.description + "\n" + joinedEnemyDesriptions + "\n" + joinedInteractionDesriptions;
 
 
         //change the room display to the new room
-        if (roomNavigation.currentRoom.roomSprite != null)
+        if (currentRoom.roomSprite != null)
         {
             roomDisplay.enabled = true;
-            roomDisplay.sprite = roomNavigation.currentRoom.roomSprite;
+            roomDisplay.sprite = currentRoom.roomSprite;
         }
         else
         {
             roomDisplay.enabled = false;
+        }
+
+        //if the room is a shop
+        if (currentRoom.GetType().ToString() == "Shop")
+        {
+            Shop shop = (Shop)currentRoom;
+            //if it's an equipment shop
+            if (shop.shopType == Shop.ShopType.EQUIPMENT)
+            {
+                //display the UI
+                EquipmentShopScript.instance.ShowShopPanel();
+            }
+
+            if (shop.shopType == Shop.ShopType.STATS)
+            {
+                StatUpgrade.instance.ShowTutorUI();
+            }
         }
 
         LogStringWithReturn(combinedText);
