@@ -19,7 +19,7 @@ MonoBehaviour:
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: b143471996a81964db20ff862b6eb9b1, type: 3}
   canPickup: 1
-  playOnPickup: {fileID: 8300000, guid: 5aeff447b9814274da7e07a900afe235, type: 3}
+  playOnPickup: {fileID: 8300000, guid: dff9d198d58403a44984ac9810ee50a6, type: 3}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
     textResponse: The wood on the shield is just starting to rot, but should still
@@ -31,4 +31,4 @@ MonoBehaviour:
   damageRange: {x: 0, y: 0}
   blockAmount: 8
   maxDurability: 8
-  currentDurability: 4
+  currentDurability: 8

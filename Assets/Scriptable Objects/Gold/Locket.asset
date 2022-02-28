@@ -19,7 +19,7 @@ MonoBehaviour:
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}
   canPickup: 1
-  playOnPickup: {fileID: 0}
+  playOnPickup: {fileID: 8300000, guid: 72714e6f673f3974483ad5691743b4c3, type: 3}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
     textResponse: The locket is gold, and as you open it, you can see there is a

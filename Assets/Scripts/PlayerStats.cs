@@ -115,6 +115,10 @@ public class PlayerStats : MonoBehaviour
             RemoveItemFromInventory(goldsack);
             gController.GetComponent<TextInput>().InputComplete();
         }
+
+        gController.aud.clip = objectToAdd.playOnPickup;
+        gController.aud.Play();
+
         nounsInInventory.Add(objectToAdd.noun);
     }
 

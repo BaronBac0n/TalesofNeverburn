@@ -71,6 +71,7 @@ public class InteractableItems : MonoBehaviour
             {
                 //add item to inventory
                 playerStats.AddItemToInventory(interactableObjectsDictionary[noun]);
+                playerStats.RemoveGold(9999999);
                 playerStats.nounsInInventory.Add(noun);
                 AddActionResponsesToUseDictionary();
                 nounsInRoom.Remove(noun);

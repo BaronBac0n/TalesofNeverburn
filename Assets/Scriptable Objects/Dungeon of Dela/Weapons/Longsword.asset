@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: longsword
   costToBuy: 0
-  description: A longsword is propped against a wall
+  description: A LONGSWORD is propped against a wall
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 8295036ffc9bc814187600b78860bc68, type: 3}

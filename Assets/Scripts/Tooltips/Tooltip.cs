@@ -45,7 +45,7 @@ public class Tooltip : MonoBehaviour
             newPos.x += rightEdgeToScreenDistance;
         }
 
-        float leftEdgeToScreenDistance = 0 - (newPos.x + popupObject.rect.width * canvas.scaleFactor / 2) + padding;
+        float leftEdgeToScreenDistance = 0 - (newPos.x - popupObject.rect.width * canvas.scaleFactor / 2) + padding;
         if (leftEdgeToScreenDistance > 0)
         {
             newPos.x += leftEdgeToScreenDistance;

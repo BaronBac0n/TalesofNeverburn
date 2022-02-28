@@ -19,7 +19,7 @@ MonoBehaviour:
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 86e23449a69fab446a4620058e9a2a87, type: 3}
   canPickup: 1
-  playOnPickup: {fileID: 0}
+  playOnPickup: {fileID: 8300000, guid: dff9d198d58403a44984ac9810ee50a6, type: 3}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
     textResponse: The axe has been cleaned and sharpened, and gives off a magical

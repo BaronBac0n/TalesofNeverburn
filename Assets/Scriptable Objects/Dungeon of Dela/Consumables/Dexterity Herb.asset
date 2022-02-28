@@ -19,7 +19,7 @@ MonoBehaviour:
   inventoryDescription: Increases your DEX by 3 when eaten
   itemSprite: {fileID: 21300000, guid: 446c30507c4001145b0ec7d1cde5a29a, type: 3}
   canPickup: 1
-  playOnPickup: {fileID: 0}
+  playOnPickup: {fileID: 8300000, guid: e0f29eb8f7c26fa46bff039d383ec776, type: 3}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
     textResponse: You spot a note next to the herb saying that when injested, increases

@@ -13,8 +13,6 @@ public class Take : InputAction
         {
             controller.LogStringWithReturn(controller.TestVerbDictionaryWithNoun(takeDictionary, seperatedInputWords[0], seperatedInputWords[1]));
             controller.LogStringWithReturn("--------------------------------------");
-            controller.aud.clip = controller.itemPickup;
-            controller.aud.Play();
         }
     }
 }
