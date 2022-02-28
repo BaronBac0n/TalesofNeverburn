@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: longsword
   costToBuy: 0
-  description: A LONGSWORD is propped against a wall
+  description: A longsword is propped against a wall
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 8295036ffc9bc814187600b78860bc68, type: 3}
   canPickup: 1
-  playOnPickup: {fileID: 0}
+  playOnPickup: {fileID: 8300000, guid: dff9d198d58403a44984ac9810ee50a6, type: 3}
   interactions:
   - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
     textResponse: You grab the sword

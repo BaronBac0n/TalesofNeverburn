@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: shield
   costToBuy: 0
-  description: A basic SHIELD sits discarded in the corner
+  description: A basic shield sits discarded in the corner
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 6d9e6f4761c62114088bf447b3bafc47, type: 3}
   canPickup: 1
-  playOnPickup: {fileID: 0}
+  playOnPickup: {fileID: 8300000, guid: 5aeff447b9814274da7e07a900afe235, type: 3}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
     textResponse: The wood on the shield is just starting to rot, but should still
