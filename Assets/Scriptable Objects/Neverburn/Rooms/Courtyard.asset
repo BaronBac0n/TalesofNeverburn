@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
   m_Name: Courtyard
   m_EditorClassIdentifier: 
-  description: You're in the main courtyard of Neverburn
+  description: 'You''re in the main courtyard of Neverburn
+
+    Enter HELP to see
+    commands'
   roomName: courtyard
   exits:
   - keyString: smith
-    exitDescription: There is a SMITH
+    exitDescription: There is a SMITH who sells items
     valueRoom: {fileID: 11400000, guid: a114cb3bb1834684185ed42a51639524, type: 2}
   - keyString: tutor
-    exitDescription: There is a TUTOR
+    exitDescription: There is a TUTOR that enhances your skills
     valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
   - keyString: quest
     exitDescription: In the center of town is a QUEST board

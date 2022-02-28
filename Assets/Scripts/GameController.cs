@@ -93,10 +93,12 @@ public class GameController : MonoBehaviour
         {
             roomDisplay.enabled = true;
             roomDisplay.sprite = currentRoom.roomSprite;
+            roomDisplay.transform.GetChild(0).gameObject.SetActive(true);
         }
         else
         {
             roomDisplay.enabled = false;
+            roomDisplay.transform.GetChild(0).gameObject.SetActive(false);
         }
 
         //if the room is a shop
