@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Strength Mushroom
   m_EditorClassIdentifier: 
   noun: mushroom
-  description: Growing in the corner is a yellow mushroom
+  costToBuy: 0
+  description: Growing in the corner is a yellow MUSHROOM
   showsDescriptionInRoom: 1
   inventoryDescription: Increases your STR by 3 when eaten
   itemSprite: {fileID: 21300000, guid: 957767c722751034c859a36ff7b48f11, type: 3}

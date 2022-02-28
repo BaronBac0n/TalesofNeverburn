@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Plaque
   m_EditorClassIdentifier: 
   noun: plaque
-  description: In the middle of the room is a stone plaque, that seems to have writing
+  costToBuy: 0
+  description: In the middle of the room is a stone PLAQUE, that seems to have writing
     on it
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips

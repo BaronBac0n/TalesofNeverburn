@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Notes
   m_EditorClassIdentifier: 
   noun: notes
-  description: The notes seem to be about necromancy
+  costToBuy: 0
+  description: The NOTES seem to be about necromancy
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}

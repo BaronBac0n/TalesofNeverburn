@@ -16,16 +16,16 @@ MonoBehaviour:
   roomName: open iron door room
   exits:
   - keyString: north
-    exitDescription: There is a hole in the wall, covered in spiderwebs to the north.
+    exitDescription: There is a hole in the wall, covered in spiderwebs to the NORTH.
     valueRoom: {fileID: 11400000, guid: 2ddda34100eb514478cd52d0e0c0eca3, type: 2}
   - keyString: west
-    exitDescription: To the west, torchlight comes through a doorway.
+    exitDescription: To the WEST, torchlight comes through a doorway.
     valueRoom: {fileID: 11400000, guid: b468bc710d747e34ca6e3927a3c24adf, type: 2}
   - keyString: east
-    exitDescription: The iron doorway to the east stands dark and imposing.
+    exitDescription: The iron doorway to the EAST stands dark and imposing.
     valueRoom: {fileID: 11400000, guid: 6e4d5eec8fb73c9448820540e0643429, type: 2}
   - keyString: south
-    exitDescription: To the south is the entrance to the dungeon.
+    exitDescription: To the SOUTH is the entrance to the dungeon.
     valueRoom: {fileID: 11400000, guid: 1a873362fd929b4498cd142a8672ab94, type: 2}
   roomSprite: {fileID: 21300000, guid: 790fcf07cfa870542876b993480e8a4d, type: 3}
   interactableObjectsInRoom:

@@ -26,7 +26,7 @@ public class PlayerStats : MonoBehaviour
     public InteractableObject[] inventory;
     public int maxInventorySlots;
     public Button[] inventoryButtons;
-    [HideInInspector]
+
     public List<string> nounsInInventory = new List<string>();
 
     [Space]
@@ -115,6 +115,7 @@ public class PlayerStats : MonoBehaviour
             RemoveItemFromInventory(goldsack);
             gController.GetComponent<TextInput>().InputComplete();
         }
+        nounsInInventory.Add(objectToAdd.noun);
     }
 
     public void AddGold(int amount)

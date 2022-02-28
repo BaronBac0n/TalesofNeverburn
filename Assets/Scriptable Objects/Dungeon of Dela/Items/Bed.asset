@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Bed
   m_EditorClassIdentifier: 
   noun: bed
-  description: A straw bed sits in the center of the room
+  costToBuy: 0
+  description: A straw BED sits in the center of the room
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}
@@ -21,6 +22,6 @@ MonoBehaviour:
   playOnPickup: {fileID: 0}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
-    textResponse: The bed appears to have been slept in recently. You see a locket
+    textResponse: The bed appears to have been slept in recently. You see a LOCKET
       under the pillow.
     actionResponse: {fileID: 0}

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Key
   m_EditorClassIdentifier: 
   noun: key
-  description: A key on a chain hangs around her neck
+  costToBuy: 0
+  description: A KEY on a chain hangs around her neck
   showsDescriptionInRoom: 1
   inventoryDescription: An iron key
   itemSprite: {fileID: 21300000, guid: 06399aca05650054592c4322e29c8c07, type: 3}

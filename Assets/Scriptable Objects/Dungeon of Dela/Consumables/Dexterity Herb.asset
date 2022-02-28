@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Dexterity Herb
   m_EditorClassIdentifier: 
   noun: herb
-  description: An orange herb stands out on the counter
+  costToBuy: 0
+  description: An orange HERB stands out on the counter
   showsDescriptionInRoom: 1
   inventoryDescription: Increases your DEX by 3 when eaten
   itemSprite: {fileID: 21300000, guid: 446c30507c4001145b0ec7d1cde5a29a, type: 3}

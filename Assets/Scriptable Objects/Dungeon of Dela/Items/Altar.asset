@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Altar
   m_EditorClassIdentifier: 
   noun: altar
-  description: A stone altar is in the middle of the room
+  costToBuy: 0
+  description: A stone ALTAR is in the middle of the room
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}
@@ -22,5 +23,5 @@ MonoBehaviour:
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
     textResponse: The altar has the symbol of Orcus, the god of undeath carved into
-      it. A folded letter lays on the stone.
+      it. A folded LETTER lays on the stone.
     actionResponse: {fileID: 0}

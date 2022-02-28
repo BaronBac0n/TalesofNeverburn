@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Dresser
   m_EditorClassIdentifier: 
   noun: dresser
-  description: A simple wooden dresser stands against one wall
+  costToBuy: 0
+  description: A simple wooden DRESSER stands against one wall
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}

@@ -45,7 +45,6 @@ public class EquipmentShopButton : MonoBehaviour
     public void BuyItem()
     {
         PlayerStats playerStats = PlayerStats.instance;
-
         if(playerStats.gold >= itemInButton.costToBuy)
         {
             playerStats.RemoveGold(itemInButton.costToBuy);

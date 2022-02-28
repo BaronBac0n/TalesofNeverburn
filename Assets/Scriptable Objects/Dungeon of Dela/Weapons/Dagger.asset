@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: dagger
   costToBuy: 40
-  description: There is a dagger in the corner
+  description: There is a DAGGER in the corner
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: d54845bf81d235f44a92aad6533415d3, type: 3}

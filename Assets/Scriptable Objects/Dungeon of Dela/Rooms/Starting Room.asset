@@ -17,10 +17,10 @@ MonoBehaviour:
   roomName: starting room
   exits:
   - keyString: north
-    exitDescription: You see a dark doorway to the north
+    exitDescription: You see a dark doorway to the NORTH
     valueRoom: {fileID: 11400000, guid: b63f71ad998a84949ba9437cba78474d, type: 2}
   - keyString: south
-    exitDescription: 'South of you is the exit. '
+    exitDescription: 'SOUTH of you is the exit. '
     valueRoom: {fileID: 11400000, guid: 4413dc23d05922343aba02ff0c68515c, type: 2}
   roomSprite: {fileID: 21300000, guid: 37e8bf4b7a6779845b4f43d413297a28, type: 3}
   interactableObjectsInRoom:

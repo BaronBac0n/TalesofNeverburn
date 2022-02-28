@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class TooltipUser : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] Tooltip tooltip;
-    public enum tooltipType { SLOT0, SLOT1, SLOT2, SLOT3, SLOT4, SLOT5, SLOT6, SLOT7, SLOT8, STATINFO, ENEMYHEALTH, ENEMYDMG, ENEMYBLOCK};
+    public enum tooltipType { SLOT0, SLOT1, SLOT2, SLOT3, SLOT4, SLOT5, SLOT6, SLOT7, SLOT8, CMDINFO, STATINFO, ENEMYHEALTH, ENEMYDMG, ENEMYBLOCK};
     public tooltipType type;
 
 
@@ -16,6 +16,10 @@ public class TooltipUser : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             case tooltipType.STATINFO:
                 tooltip.DisplayStatInfo();
+                break;
+
+            case tooltipType.CMDINFO:
+                tooltip.DisplayCommandInfo();
                 break;
 
             case tooltipType.ENEMYBLOCK:

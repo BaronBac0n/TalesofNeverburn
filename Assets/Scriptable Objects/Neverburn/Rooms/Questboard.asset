@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Questboard
+  m_EditorClassIdentifier: 
+  description: This wooden board is covered in the villager's requests
+  roomName: Questboard
+  exits:
+  - keyString: dela
+    exitDescription: One of the posters talks about a dungeon of DELA
+    valueRoom: {fileID: 11400000, guid: 1a873362fd929b4498cd142a8672ab94, type: 2}
+  - keyString: courtyard
+    exitDescription: The COURTYARD is behind you
+    valueRoom: {fileID: 11400000, guid: 8337cf2cb0ce3fc4d980a31d98df9264, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 

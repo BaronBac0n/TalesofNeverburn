@@ -47,7 +47,6 @@ public class RoomNavigation : MonoBehaviour
                     currentRoom = endRoom;
                     controller.buttonsPanel.SetActive(true);
                     controller.DisplayRoomText();
-                    controller.interactableItems.DisplayInventoryAfterGame();
                 }
                 else
                 {

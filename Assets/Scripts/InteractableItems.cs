@@ -20,12 +20,9 @@ public class InteractableItems : MonoBehaviour
     [HideInInspector]
     public List<string> nounsInRoom = new List<string>();
 
-    PlayerStats playerStats;
-
 
     private void Awake()
     {
-        playerStats = PlayerStats.instance;
         controller = GetComponent<GameController>();
         SetUpInteractableDictionary();
     }
@@ -42,6 +39,8 @@ public class InteractableItems : MonoBehaviour
     {
         InteractableObject interactableInRoom = currentRoom.interactableObjectsInRoom[i];
 
+
+        PlayerStats playerStats = PlayerStats.instance;
         if (!playerStats.nounsInInventory.Contains(interactableInRoom.noun))
         {
             nounsInRoom.Add(interactableInRoom.noun);
@@ -64,6 +63,8 @@ public class InteractableItems : MonoBehaviour
     {
         string noun = seperatedInputWords[1];
 
+
+        PlayerStats playerStats = PlayerStats.instance;
         if (nounsInRoom.Contains(noun))
         {
             if (interactableObjectsDictionary[noun].canPickup)
@@ -87,28 +88,12 @@ public class InteractableItems : MonoBehaviour
             return null;
         }
     }
-
-    public void DisplayInventory()
-    {
-        controller.LogStringWithReturn("You look in your backpack, inside you have: ");
-        for (int i = 0; i < playerStats.nounsInInventory.Count; i++)
-        {
-            controller.LogStringWithReturn(playerStats.nounsInInventory[i]);
-        }
-    }
-
-    public void DisplayInventoryAfterGame()
-    {
-        controller.LogStringWithReturn("You even managed to collect: ");
-        for (int i = 0; i < playerStats.nounsInInventory.Count; i++)
-        {
-            controller.LogStringWithReturn(playerStats.nounsInInventory[i]);
-        }
-    }
-
+    
     public void AddActionResponsesToUseDictionary()
     {
-        for (int i = 0; i < playerStats.nounsInInventory.Count; i++)
+            
+            PlayerStats playerStats = PlayerStats.instance;
+            for (int i = 0; i < playerStats.nounsInInventory.Count; i++)
         {
             string noun = playerStats.nounsInInventory[i];
 
@@ -151,6 +136,7 @@ public class InteractableItems : MonoBehaviour
 
     public void UseItem(string[] seperatedInputWords)
     {
+        PlayerStats playerStats = PlayerStats.instance;
         string nounToUse = seperatedInputWords[1];
 
         if (playerStats.nounsInInventory.Contains(nounToUse))

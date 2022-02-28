@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Locket
   m_EditorClassIdentifier: 
   noun: locket
+  costToBuy: 0
   description: 
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips

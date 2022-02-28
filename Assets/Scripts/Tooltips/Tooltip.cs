@@ -117,6 +117,21 @@ public class Tooltip : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(popupObject);
     }
 
+    public void DisplayCommandInfo()
+    {
+        StringBuilder builder = new StringBuilder();
+        builder.Append("<size=20>").Append("Commands").Append("</size>").AppendLine();
+        builder.Append("Use 'go <direction>' to move that way. EX: 'go north'. \n" +
+            "Use 'examine <item>' to examine an item in a room. EX: 'examine skull'. \n" +
+            "Use 'take <item>' to take an item from a room. EX: 'take skull'. \n" +
+            "Use 'use <item>' to use an item. EX: 'use skull'. \n" +
+            "Use 'examine room' to see the room's description again.");
+
+        infoText.text = builder.ToString();
+        popupObject.gameObject.SetActive(true);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(popupObject);
+    }
+
     public void DisplayEnemyHealthInfo()
     {
         StringBuilder builder = new StringBuilder();

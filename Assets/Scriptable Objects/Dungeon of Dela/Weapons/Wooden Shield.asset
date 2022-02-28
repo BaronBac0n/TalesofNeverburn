@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Wooden Shield
   m_EditorClassIdentifier: 
   noun: shield
-  description: A basic shield sits discarded in the corner
+  costToBuy: 0
+  description: A basic SHIELD sits discarded in the corner
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 6d9e6f4761c62114088bf447b3bafc47, type: 3}
@@ -21,7 +22,7 @@ MonoBehaviour:
   playOnPickup: {fileID: 0}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
-    textResponse: The metal on the shield is just starting to rot, but should still
+    textResponse: The wood on the shield is just starting to rot, but should still
       be usable
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
@@ -30,4 +31,4 @@ MonoBehaviour:
   damageRange: {x: 0, y: 0}
   blockAmount: 4
   maxDurability: 6
-  currentDurability: 2
+  currentDurability: 5

@@ -16,10 +16,7 @@ MonoBehaviour:
     and decay hangs heavy in the air. As you enter, you can see why. Dozens of bodies
     lay in various stages of decomposition around the edges. '
   roomName: 
-  exits:
-  - keyString: east
-    exitDescription: There is a door to the labratory to the east.
-    valueRoom: {fileID: 11400000, guid: 99740c77a73960f4288d7e2e649c51db, type: 2}
+  exits: []
   roomSprite: {fileID: 21300000, guid: d8821599204106b4caf1da23a9c519f0, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: 2a3f00b27c77d0d4cb504dae4bcb6a88, type: 2}

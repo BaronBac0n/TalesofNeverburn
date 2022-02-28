@@ -21,9 +21,9 @@ MonoBehaviour:
   - keyString: tutor
     exitDescription: There is a TUTOR
     valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
-  - keyString: dungeon
-    exitDescription: 
-    valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
+  - keyString: questboard
+    exitDescription: In the center of town is a QUESTBOARD
+    valueRoom: {fileID: 11400000, guid: 70c174ecc04880f4db97f8ce7996cec2, type: 2}
   roomSprite: {fileID: 0}
   interactableObjectsInRoom: []
   enemies: []
