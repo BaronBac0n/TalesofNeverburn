@@ -10,21 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f3c3cba2e672194985cf5ade9fd414a, type: 3}
-  m_Name: Dagger
+  m_Name: Metal Shield
   m_EditorClassIdentifier: 
-  noun: dagger
-  costToBuy: 40
-  description: There is a dagger in the corner
+  noun: shield
+  costToBuy: 20
+  description: A basic shield sits discarded in the corner
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
-  itemSprite: {fileID: 21300000, guid: d54845bf81d235f44a92aad6533415d3, type: 3}
+  itemSprite: {fileID: 21300000, guid: b143471996a81964db20ff862b6eb9b1, type: 3}
   canPickup: 1
   playOnPickup: {fileID: 0}
   interactions:
-  - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
-    textResponse: You take the dagger
+  - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
+    textResponse: The metal on the shield is just starting to rot, but should still
+      be usable
     actionResponse: {fileID: 0}
-  damageRange: {x: 2, y: 5}
-  blockAmount: 2
+  - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
+    textResponse: You strap the shield onto your arm
+    actionResponse: {fileID: 0}
+  damageRange: {x: 0, y: 0}
+  blockAmount: 8
   maxDurability: 8
   currentDurability: 8

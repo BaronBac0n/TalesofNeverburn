@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class InteractableObject : ScriptableObject
 {
     public string noun = "name";
+    public int costToBuy;
     [TextArea]
     public string description = "Description in room";
     public bool showsDescriptionInRoom;

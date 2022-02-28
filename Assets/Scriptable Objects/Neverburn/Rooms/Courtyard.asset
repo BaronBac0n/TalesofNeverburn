@@ -21,6 +21,9 @@ MonoBehaviour:
   - keyString: tutor
     exitDescription: There is a TUTOR
     valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
+  - keyString: dungeon
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
   roomSprite: {fileID: 0}
   interactableObjectsInRoom: []
   enemies: []
