@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: aegis
   costToBuy: 20
-  description: A basic SHIELD sits discarded in the corner
+  description: A basic <color=purple>SHIELD</color> sits discarded in the corner
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: b143471996a81964db20ff862b6eb9b1, type: 3}

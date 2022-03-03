@@ -17,7 +17,7 @@ MonoBehaviour:
   roomName: spider room
   exits:
   - keyString: south
-    exitDescription: The web covered hole in the wall leads SOUTH.
+    exitDescription: The web covered hole in the wall leads <color=green>SOUTH</color>.
     valueRoom: {fileID: 11400000, guid: b63f71ad998a84949ba9437cba78474d, type: 2}
   roomSprite: {fileID: 21300000, guid: cad60038482eda74d94b916ffd5ffa60, type: 3}
   interactableObjectsInRoom:

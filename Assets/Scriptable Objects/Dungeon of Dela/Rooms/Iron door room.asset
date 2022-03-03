@@ -13,17 +13,18 @@ MonoBehaviour:
   m_Name: Iron door room
   m_EditorClassIdentifier: 
   description: This large room is dark and made of stone and tiles. A locked iron
-    DOOR is to the east.
+    <color=blue>DOOR</color> is to the east.
   roomName: iron door room
   exits:
   - keyString: north
-    exitDescription: There is a doorway, covered in spiderwebs to the NORTH.
+    exitDescription: There is a doorway, covered in spiderwebs to the <color=green>NORTH</color>.
     valueRoom: {fileID: 11400000, guid: 2ddda34100eb514478cd52d0e0c0eca3, type: 2}
   - keyString: west
-    exitDescription: To the WEST, torchlight comes through a doorway.
+    exitDescription: To the <color=green>WEST</color>, torchlight comes through a
+      doorway.
     valueRoom: {fileID: 11400000, guid: b468bc710d747e34ca6e3927a3c24adf, type: 2}
   - keyString: south
-    exitDescription: To the SOUTH is the entrance to the dungeon.
+    exitDescription: To the <color=green>SOUTH</color> is the entrance to the dungeon.
     valueRoom: {fileID: 11400000, guid: 1a873362fd929b4498cd142a8672ab94, type: 2}
   roomSprite: {fileID: 21300000, guid: 790fcf07cfa870542876b993480e8a4d, type: 3}
   interactableObjectsInRoom:

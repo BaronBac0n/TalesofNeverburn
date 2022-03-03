@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: axe
   costToBuy: 0
-  description: Laying next to the body is a dark iron AXE
+  description: Laying next to the body is a dark iron <color=purple>AXE</color>
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 86e23449a69fab446a4620058e9a2a87, type: 3}

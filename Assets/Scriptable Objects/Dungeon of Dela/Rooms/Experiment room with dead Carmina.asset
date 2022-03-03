@@ -16,7 +16,7 @@ MonoBehaviour:
   roomName: 
   exits:
   - keyString: east
-    exitDescription: The door to the EAST leads to the lab.
+    exitDescription: The door to the <color=green>EAST</color> leads to the lab.
     valueRoom: {fileID: 11400000, guid: 99740c77a73960f4288d7e2e649c51db, type: 2}
   roomSprite: {fileID: 21300000, guid: d8821599204106b4caf1da23a9c519f0, type: 3}
   interactableObjectsInRoom:

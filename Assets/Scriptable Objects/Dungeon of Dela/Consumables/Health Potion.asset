@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: potion
   costToBuy: 0
-  description: On a shelf, you see a large POTION bottle with some kind of liquid
+  description: On a shelf, you see a large <color=orange>POTION</color> bottle with
+    some kind of liquid
   showsDescriptionInRoom: 1
   inventoryDescription: Patches up your wounds, healing 10 points
   itemSprite: {fileID: 21300000, guid: 4f9e6e6230b03e94eaadd6975635f3fe, type: 3}

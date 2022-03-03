@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: notes
   costToBuy: 0
-  description: The NOTES seem to be about necromancy
+  description: The <color=blue>NOTES</color> seem to be about necromancy
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Carmina
   m_EditorClassIdentifier: 
   noun: Carmina
-  description: "A woman with shock white hair turns to you, glaring angrily. \n\"How
-    dare you intrude upon my work! You will become one of my experiments then!\"
-    \nShe lunges at you, dagger in hand"
+  description: "A <color=red>WOMAN</color> with shock white hair turns to you, glaring
+    angrily. \n\"How dare you intrude upon my work! You will become one of my experiments
+    then!\" \nShe lunges at you, dagger in hand"
   interactions: []
   maxHealth: 25
   currentHealth: 25

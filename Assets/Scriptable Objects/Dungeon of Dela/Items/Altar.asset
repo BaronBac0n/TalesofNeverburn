@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: altar
   costToBuy: 0
-  description: A stone ALTAR is in the middle of the room
+  description: A stone <color=blue>ALTAR</color> is in the middle of the room
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}

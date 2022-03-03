@@ -17,13 +17,14 @@ MonoBehaviour:
   roomName: lab
   exits:
   - keyString: south
-    exitDescription: The stairs to the SOUTH have light coming down from above.
+    exitDescription: The stairs to the <color=green>SOUTH</color> have light coming
+      down from above.
     valueRoom: {fileID: 11400000, guid: b468bc710d747e34ca6e3927a3c24adf, type: 2}
   - keyString: east
-    exitDescription: There is a doorway to a bedroom to the EAST.
+    exitDescription: There is a doorway to a bedroom to the <color=green>EAST</color>.
     valueRoom: {fileID: 11400000, guid: 244dfaceb8f3c5343bd883bad1b3ca42, type: 2}
   - keyString: west
-    exitDescription: A doorway to the WEST leads to a corridor.
+    exitDescription: A doorway to the <color=green>WEST</color> leads to a corridor.
     valueRoom: {fileID: 11400000, guid: 1cc6900c3b6ea14489f6f7b135161d44, type: 2}
   roomSprite: {fileID: 21300000, guid: 0a0304a6bddf5604da90fab106f9c8d1, type: 3}
   interactableObjectsInRoom:
