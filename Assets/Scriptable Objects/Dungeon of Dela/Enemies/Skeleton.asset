@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Skeleton
   m_EditorClassIdentifier: 
   noun: skeleton
-  description: A skeleton rises to meet you, bony claws raised!
+  description: A <color=red>SKELETON</color> rises to meet you, bony claws raised!
   interactions: []
   maxHealth: 7
-  currentHealth: 5
+  currentHealth: 7
   block: 2
   damage: {x: 4, y: 6}
   isAboveHalfHealth: 1

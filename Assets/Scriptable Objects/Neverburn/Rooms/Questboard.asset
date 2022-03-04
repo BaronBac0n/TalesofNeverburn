@@ -16,13 +16,17 @@ MonoBehaviour:
   roomName: Questboard
   exits:
   - keyString: dela
-    exitDescription: One of the posters talks about a dungeon of DELA
+    exitDescription: One of the posters talks about a dungeon of <color=green>DELA</color>
     valueRoom: {fileID: 11400000, guid: 1a873362fd929b4498cd142a8672ab94, type: 2}
+  - keyString: dungeon
+    exitDescription: The <color=green>DUNGEON</color> poster stands out
+    valueRoom: {fileID: 11400000, guid: c2ed9b591c5180c47ba452cd0ecb08b4, type: 2}
   - keyString: courtyard
-    exitDescription: The COURTYARD is behind you
+    exitDescription: The <color=green>COURTYARD</color> is behind you
     valueRoom: {fileID: 11400000, guid: 8337cf2cb0ce3fc4d980a31d98df9264, type: 2}
   roomSprite: {fileID: 0}
-  interactableObjectsInRoom: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1353dce2fb85f594d9bc61341ff260c1, type: 2}
   enemies: []
   checkIfItemsNeeded: 0
   objectNeeded: 

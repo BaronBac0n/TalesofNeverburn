@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: ruby
   costToBuy: 0
-  description: A red RUBY sits on the chest of the mummy
+  description: A red <color=yellow>RUBY</color> sits on the chest of the mummy
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: bd38a359383dc9a44a1361a3e7dbbf00, type: 3}

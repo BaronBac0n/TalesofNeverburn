@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
-  m_Name: Experiment room with dead Carmina
+  m_Name: Room 9
   m_EditorClassIdentifier: 
-  description: Carmina's body lays on the floor.
+  description: A corridor connecting 6(E)
   roomName: 
   exits:
   - keyString: east
-    exitDescription: The door to the <color=green>EAST</color> leads to the lab.
-    valueRoom: {fileID: 11400000, guid: 99740c77a73960f4288d7e2e649c51db, type: 2}
-  roomSprite: {fileID: 21300000, guid: d8821599204106b4caf1da23a9c519f0, type: 3}
-  interactableObjectsInRoom:
-  - {fileID: 11400000, guid: 2a3f00b27c77d0d4cb504dae4bcb6a88, type: 2}
+    exitDescription: <color=green>EAST</color> to room6
+    valueRoom: {fileID: 11400000, guid: ba6a5138c51e51045ac7ce7e63306ac2, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
   enemies: []
   checkIfItemsNeeded: 0
   objectNeeded: 

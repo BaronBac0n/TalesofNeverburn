@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 4
+  m_EditorClassIdentifier: 
+  description: A corridor connecting 2(N), 3(W), 8(S)
+  roomName: 
+  exits:
+  - keyString: north
+    exitDescription: <color=green>NORTH</color> to room 2
+    valueRoom: {fileID: 11400000, guid: f104efd9678ca694ca3b5bd644a5da89, type: 2}
+  - keyString: south
+    exitDescription: <color=green>SOUTH</color> to room 8
+    valueRoom: {fileID: 11400000, guid: 018d478bf827b2f4fb9cae3e691a7ed6, type: 2}
+  - keyString: west
+    exitDescription: <color=green>WEST</color> to room 3
+    valueRoom: {fileID: 11400000, guid: 9c4d2fbaba5d22a479525536337088fa, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 

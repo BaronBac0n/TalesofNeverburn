@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Spider
   m_EditorClassIdentifier: 
   noun: spider
-  description: From the roof drops a large, hungry spider, which lunges at you!
+  description: From the roof drops a large, hungry <color=red>SPIDER</color>, which
+    lunges at you!
   interactions: []
   maxHealth: 8
   currentHealth: 8

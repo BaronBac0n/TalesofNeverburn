@@ -16,10 +16,12 @@ MonoBehaviour:
   roomName: altar room
   exits:
   - keyString: north
-    exitDescription: To the NORTH, there are stairs that lead down.
+    exitDescription: To the <color=green>NORTH</color>, there are stairs that lead
+      down.
     valueRoom: {fileID: 11400000, guid: 99740c77a73960f4288d7e2e649c51db, type: 2}
   - keyString: east
-    exitDescription: Through the doorway to the EAST you can make out the iron door.
+    exitDescription: Through the doorway to the <color=green>EAST</color> you can
+      make out the iron door.
     valueRoom: {fileID: 11400000, guid: b63f71ad998a84949ba9437cba78474d, type: 2}
   roomSprite: {fileID: 21300000, guid: 9b562e582ad22454d9bb39bcb89dff02, type: 3}
   interactableObjectsInRoom:

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: emerald
   costToBuy: 0
-  description: The body holds a glinting green EMERALD in their bony hand
+  description: The body holds a glinting green <color=yellow>EMERALD</color> in their
+    bony hand
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: bd38a359383dc9a44a1361a3e7dbbf00, type: 3}

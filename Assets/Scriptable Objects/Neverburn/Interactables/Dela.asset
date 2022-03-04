@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71659708ed0b14240b69fb42527ff3b5, type: 3}
-  m_Name: Dresser
+  m_Name: Dela
   m_EditorClassIdentifier: 
-  noun: dresser
+  noun: dela
   costToBuy: 0
-  description: A simple wooden <color=blue>DRESSER</color> stands against one wall
-  showsDescriptionInRoom: 1
+  description: 
+  showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}
   canPickup: 0
   playOnPickup: {fileID: 0}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
-    textResponse: Looking through the dresser, you see rags and dirty clothes.
+    textResponse: The notice says that townsfolk have gone missing over the past
+      few weeks, and tracks have lead to an underground ruin
     actionResponse: {fileID: 0}

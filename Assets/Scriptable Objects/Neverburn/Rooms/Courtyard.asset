@@ -19,13 +19,13 @@ MonoBehaviour:
   roomName: courtyard
   exits:
   - keyString: smith
-    exitDescription: There is a SMITH who sells items
+    exitDescription: There is a <color=green>SMITH</color> who sells items
     valueRoom: {fileID: 11400000, guid: a114cb3bb1834684185ed42a51639524, type: 2}
   - keyString: tutor
-    exitDescription: There is a TUTOR that enhances your skills
+    exitDescription: There is a <color=green>TUTOR</color> that enhances your skills
     valueRoom: {fileID: 11400000, guid: 4aa09e1ca194c2e48b5e51d69b9a935f, type: 2}
   - keyString: quest
-    exitDescription: In the center of town is a QUEST board
+    exitDescription: In the center of town is a <color=green>QUEST</color> board
     valueRoom: {fileID: 11400000, guid: 70c174ecc04880f4db97f8ce7996cec2, type: 2}
   roomSprite: {fileID: 0}
   interactableObjectsInRoom: []

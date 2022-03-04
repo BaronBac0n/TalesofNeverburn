@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: shield
   costToBuy: 0
-  description: A basic SHIELD sits discarded in the corner
+  description: A basic <color=purple>SHIELD</color> sits discarded in the corner
   showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 6d9e6f4761c62114088bf447b3bafc47, type: 3}
