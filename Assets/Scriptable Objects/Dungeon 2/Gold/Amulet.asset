@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47d8ff3b211d28b418bf9e6a009ecdaa, type: 3}
-  m_Name: Sapphire
+  m_Name: Amulet
   m_EditorClassIdentifier: 
-  noun: Sapphire
+  noun: name
   costToBuy: 0
   description: Description in room
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}
-  canPickup: 1
+  canPickup: 0
   playOnPickup: {fileID: 0}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
-    textResponse: Taking a closer look at the sapphire, it is at a good quality and
-      would sell for a good amount of gold.
+    textResponse: Taking a closer look at the Amulet, you can see an Orc chiseled
+      nicely on it.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
-    textResponse: You take the sapphire.
+    textResponse: You grab the amulet.
     actionResponse: {fileID: 0}
-  randomRange: {x: 20, y: 50}
+  randomRange: {x: 40, y: 60}

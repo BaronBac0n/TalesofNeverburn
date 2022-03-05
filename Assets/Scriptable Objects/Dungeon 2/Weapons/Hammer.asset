@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: Hammer
   costToBuy: 10
-  description: 
+  description: Description in room
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 0}
