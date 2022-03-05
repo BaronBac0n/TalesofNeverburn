@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: EntryRoom
+  m_EditorClassIdentifier: 
+  description: "There have been reports of nearby villages losing pets and livestock.
+    You find yourself in a lightened up cave, with visible blood on the ground.\r"
+  roomName: Entrance
+  exits:
+  - keyString: north
+    exitDescription: 'The blood heads further into the cave, heading <color=green>NORTH</color>. '
+    valueRoom: {fileID: 11400000, guid: 118317e4a0b92064d891527301e8f652, type: 2}
+  - keyString: south
+    exitDescription: '<color=green>SOUTH</color> of you is the exit. '
+    valueRoom: {fileID: 0}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 

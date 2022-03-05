@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 3
+  m_EditorClassIdentifier: 
+  description: "You\u2019ve entered a compact part of the cave. When a spider drops
+    from the ceiling. The spider leaps towards you. Behind the spider you can make
+    out a body of a sheep."
+  roomName: Room 3
+  exits:
+  - keyString: south
+    exitDescription: A light shines to the <color=green>SOUTH</color>of you.
+    valueRoom: {fileID: 11400000, guid: e0182031d63d30349be0640f2bebadb7, type: 2}
+  - keyString: east
+    exitDescription: Towards the <color=green>EAST</color>, you can hear crying and
+      whimpering.
+    valueRoom: {fileID: 11400000, guid: 10d4a04223ff97543b9d41251445d150, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
+  enemies:
+  - {fileID: 11400000, guid: 5cad2d603fc27a940aa99ecba4223f01, type: 2}
+  checkIfItemsNeeded: 0
+  objectNeeded: 

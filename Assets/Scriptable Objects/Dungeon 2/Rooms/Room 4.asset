@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 4
+  m_EditorClassIdentifier: 
+  description: The room you find yourself in is a very large room. It is very bright
+    thanks to the torches. There is a body of what you assume is one of the missing
+    animals but it is too damaged for you to be certain.
+  roomName: Room 4 (Boss 1)
+  exits:
+  - keyString: west
+    exitDescription: The <color=green>WEST</color>of you is the more web-covered
+      path you came from.
+    valueRoom: {fileID: 11400000, guid: f0f43b26788e7494bac33a36e9c03465, type: 2}
+  - keyString: south
+    exitDescription: To the <color=green>SOUTH</color>you see more blood and even
+      some bones heading down a path.
+    valueRoom: {fileID: 11400000, guid: 089475470dcf50c4b9291c095f288c49, type: 2}
+  - keyString: east
+    exitDescription: There is an appealing smell that is coming from the <color=green>EAST</color>.
+    valueRoom: {fileID: 0}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
+  enemies:
+  - {fileID: 11400000, guid: f023cbae610a3fb42b410eaca212d264, type: 2}
+  checkIfItemsNeeded: 0
+  objectNeeded: 

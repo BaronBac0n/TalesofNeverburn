@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 1
+  m_EditorClassIdentifier: 
+  description: You enter a larger room that is lit by a torch on the wall. A basic
+    <color=purple>SHIELD</color> sits in the middle of the room.
+  roomName: Room 1
+  exits:
+  - keyString: north
+    exitDescription: To the <color=green>NORTH</color> you see something shining
+      in another room.
+    valueRoom: {fileID: 11400000, guid: e0182031d63d30349be0640f2bebadb7, type: 2}
+  - keyString: east
+    exitDescription: To the <color=green>EAST</color> the cave looks to be going
+      deeper into the centre.
+    valueRoom: {fileID: 11400000, guid: 666c3d37a79f0e043be53dfe31e58f79, type: 2}
+  - keyString: south
+    exitDescription: The entrance of the dungeon is to the <color=green>SOUTH</color>.
+    valueRoom: {fileID: 11400000, guid: 4b711383cd7546547b21e27ab12323d4, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 5b202e28bacf17c47b64ce10bf471def, type: 2}
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 
