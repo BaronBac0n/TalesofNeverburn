@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 9
+  m_EditorClassIdentifier: 
+  description: 'The room you are in is an expansive part of the dungeon. You see
+    a lot of blood covering the walls, floor. Alongside bones of what you can only
+    assume to be either animals or others who have ventured into this part of the
+    cave.
+
+
+    On the wall you can see an <color=purple>AMULET</color>.'
+  roomName: Room 9
+  exits:
+  - keyString: east
+    exitDescription: To the <color=green>EAST</color> is darkness.
+    valueRoom: {fileID: 0}
+  - keyString: west
+    exitDescription: The <color=green>WEST</color> is very bright.
+    valueRoom: {fileID: 0}
+  - keyString: south
+    exitDescription: While the <color=green>SOUTH</color> is covered in webs.
+    valueRoom: {fileID: 0}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: dd5c714a8ac07a74cbad0dfe1e917bd4, type: 2}
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 

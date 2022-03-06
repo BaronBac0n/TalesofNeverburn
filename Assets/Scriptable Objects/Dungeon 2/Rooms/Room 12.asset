@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 12
+  m_EditorClassIdentifier: 
+  description: The room you have entered is the biggest room in the cave. It is lit
+    by many torches. In the middle sits an <color=red>ORC</color>.
+  roomName: Room 12
+  exits:
+  - keyString: west
+    exitDescription: To the <color=green>WEST</color> you hear a whimpering sound.
+    valueRoom: {fileID: 11400000, guid: b0e75edec29459844b606e1ce63981af, type: 2}
+  - keyString: north
+    exitDescription: You feel a heat emanating from the <color=green>NORTH</color>.
+    valueRoom: {fileID: 11400000, guid: 5167c256c0a1d6848a594a298ed6676c, type: 2}
+  - keyString: south
+    exitDescription: To the <color=green>SOUTH</color> you start to smell fresh air.
+    valueRoom: {fileID: 11400000, guid: 7566d9fba0f0459458b769ea4ac250d0, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom: []
+  enemies:
+  - {fileID: 11400000, guid: 610f816c160a442489718f2e8d6bc609, type: 2}
+  checkIfItemsNeeded: 0
+  objectNeeded: 

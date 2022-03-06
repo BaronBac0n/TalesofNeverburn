@@ -25,11 +25,11 @@ MonoBehaviour:
     valueRoom: {fileID: 11400000, guid: e0182031d63d30349be0640f2bebadb7, type: 2}
   - keyString: south
     exitDescription: The <color=green>SOUTH</color> is a pathway covered in webs.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: 666c3d37a79f0e043be53dfe31e58f79, type: 2}
   - keyString: east
     exitDescription: To the <color=green>EAST</color> it looks like the cave opens
       up a bit.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: e1eaadfd3e4d55a4eaf4ff6fe4720980, type: 2}
   roomSprite: {fileID: 0}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: f2c9932f9a09e7842acbaecd938189e4, type: 2}

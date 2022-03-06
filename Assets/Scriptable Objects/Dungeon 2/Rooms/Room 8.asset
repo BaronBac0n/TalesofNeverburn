@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 8
+  m_EditorClassIdentifier: 
+  description: You find yourself in a web-covered room, with very little inside of
+    it. There is a shining in the corner, it seems like <color=yellow>SAPPHIRE</color>.
+  roomName: Room 8
+  exits:
+  - keyString: south
+    exitDescription: You hear whimpering to the <color=green>SOUTH</color>.
+    valueRoom: {fileID: 11400000, guid: b0e75edec29459844b606e1ce63981af, type: 2}
+  - keyString: east
+    exitDescription: There is a smell of smoke to the <color=green>EAST</color>.
+    valueRoom: {fileID: 11400000, guid: 5167c256c0a1d6848a594a298ed6676c, type: 2}
+  - keyString: north
+    exitDescription: "The <color=green>NORTH</color> has a strange smell that you
+      can\u2019t make out."
+    valueRoom: {fileID: 11400000, guid: 478e7ed1712847247b3618396085a5e7, type: 2}
+  - keyString: west
+    exitDescription: The cave seems to shrink towards the <color=green>WEST</color>.
+    valueRoom: {fileID: 11400000, guid: 089475470dcf50c4b9291c095f288c49, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 4e7e57d250e5b91488cc4507391d18a2, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: 5cad2d603fc27a940aa99ecba4223f01, type: 2}
+  checkIfItemsNeeded: 0
+  objectNeeded: 

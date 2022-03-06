@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Room 11
+  m_EditorClassIdentifier: 
+  description: The room is lit by a simple torch on the wall, and the room itself
+    seems decently big. As soon as you enter the heat hits you. As a <color=blue>FIREPIT</color>
+    is in the middle of the room.
+  roomName: Room 11
+  exits:
+  - keyString: west
+    exitDescription: To the <color=green>WEST</color> is a web covered corridor.
+    valueRoom: {fileID: 11400000, guid: e1eaadfd3e4d55a4eaf4ff6fe4720980, type: 2}
+  - keyString: north
+    exitDescription: As you look <color=green>NORTH</color> you see darkness.
+    valueRoom: {fileID: 11400000, guid: b11c7f31d1a027e41856670b6b015177, type: 2}
+  - keyString: south
+    exitDescription: To the <color=green>SOUTH</color> you see a blood trail starting
+      from the firepit to another room.
+    valueRoom: {fileID: 11400000, guid: b3f5630a67dc23742bb3ded28585a004, type: 2}
+  roomSprite: {fileID: 0}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 02cbc66cb33ec6a4080359a8b905fe29, type: 2}
+  enemies: []
+  checkIfItemsNeeded: 0
+  objectNeeded: 
