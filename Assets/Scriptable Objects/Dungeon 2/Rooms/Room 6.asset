@@ -22,7 +22,7 @@ MonoBehaviour:
   - keyString: west
     exitDescription: 'To the <color=green>WEST</color> is a bright, bright light. '
     valueRoom: {fileID: 11400000, guid: 118317e4a0b92064d891527301e8f652, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: b6e99f49268391f4186764bb4db9d692, type: 3}
   interactableObjectsInRoom: []
   enemies:
   - {fileID: 0}

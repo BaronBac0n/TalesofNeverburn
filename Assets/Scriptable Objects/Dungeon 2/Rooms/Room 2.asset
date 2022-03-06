@@ -26,7 +26,7 @@ MonoBehaviour:
   - keyString: south
     exitDescription: A bright light is coming from the <color=green>SOUTH</color>.
     valueRoom: {fileID: 11400000, guid: 118317e4a0b92064d891527301e8f652, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: 1948ef4962481a04f84836e0f7ce1177, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: 09570a950b83ba448b19ea037779ac3e, type: 2}
   enemies: []

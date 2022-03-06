@@ -27,7 +27,7 @@ MonoBehaviour:
   - keyString: south
     exitDescription: The entrance of the dungeon is to the <color=green>SOUTH</color>.
     valueRoom: {fileID: 11400000, guid: 4b711383cd7546547b21e27ab12323d4, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: 1948ef4962481a04f84836e0f7ce1177, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: 5b202e28bacf17c47b64ce10bf471def, type: 2}
   enemies: []

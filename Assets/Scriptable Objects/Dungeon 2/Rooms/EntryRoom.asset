@@ -22,7 +22,7 @@ MonoBehaviour:
   - keyString: south
     exitDescription: '<color=green>SOUTH</color> of you is the exit. '
     valueRoom: {fileID: 0}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: 37df2c7d919f7f148be37fee9137c600, type: 3}
   interactableObjectsInRoom: []
   enemies: []
   checkIfItemsNeeded: 0

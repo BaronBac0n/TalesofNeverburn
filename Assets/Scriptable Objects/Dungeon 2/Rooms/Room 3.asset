@@ -24,7 +24,7 @@ MonoBehaviour:
     exitDescription: Towards the <color=green>EAST</color>, you can hear crying and
       whimpering.
     valueRoom: {fileID: 11400000, guid: 10d4a04223ff97543b9d41251445d150, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: 1ef58eac5475cc84ea05aef483d6e9ff, type: 3}
   interactableObjectsInRoom: []
   enemies:
   - {fileID: 11400000, guid: 5cad2d603fc27a940aa99ecba4223f01, type: 2}

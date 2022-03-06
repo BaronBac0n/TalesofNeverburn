@@ -22,7 +22,7 @@ MonoBehaviour:
   - keyString: north
     exitDescription: There is a web-covered path heading to the <color=green>NORTH</color>.
     valueRoom: {fileID: 11400000, guid: e1eaadfd3e4d55a4eaf4ff6fe4720980, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: 26a7dca4cdd3b864687dd98eaceae644, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: b9b2c4f44e78b1746a95822300a16161, type: 2}
   enemies: []

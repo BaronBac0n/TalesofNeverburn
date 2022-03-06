@@ -27,7 +27,7 @@ MonoBehaviour:
     exitDescription: To the <color=green>SOUTH</color> you see a blood trail starting
       from the firepit to another room.
     valueRoom: {fileID: 11400000, guid: b3f5630a67dc23742bb3ded28585a004, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: 5a75756f56d8f344bb3abece9850967e, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: 02cbc66cb33ec6a4080359a8b905fe29, type: 2}
   enemies: []

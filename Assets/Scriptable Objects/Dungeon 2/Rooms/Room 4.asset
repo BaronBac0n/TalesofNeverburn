@@ -28,7 +28,7 @@ MonoBehaviour:
   - keyString: east
     exitDescription: There is an appealing smell that is coming from the <color=green>EAST</color>.
     valueRoom: {fileID: 11400000, guid: 478e7ed1712847247b3618396085a5e7, type: 2}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: a8b976bfffd4a6e4695d63defd404cea, type: 3}
   interactableObjectsInRoom: []
   enemies:
   - {fileID: 11400000, guid: f023cbae610a3fb42b410eaca212d264, type: 2}

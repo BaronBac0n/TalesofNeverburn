@@ -30,7 +30,7 @@ MonoBehaviour:
   - keyString: south
     exitDescription: While the <color=green>SOUTH</color> is covered in webs.
     valueRoom: {fileID: 0}
-  roomSprite: {fileID: 0}
+  roomSprite: {fileID: 21300000, guid: a8b976bfffd4a6e4695d63defd404cea, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: dd5c714a8ac07a74cbad0dfe1e917bd4, type: 2}
   enemies: []
