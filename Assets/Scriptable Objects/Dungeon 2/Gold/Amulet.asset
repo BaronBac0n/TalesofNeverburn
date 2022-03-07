@@ -17,7 +17,7 @@ MonoBehaviour:
   description: Description in room
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 0e123cfdc54a3ca4684816a34167a566, type: 3}
   canPickup: 0
   playOnPickup: {fileID: 0}
   interactions:

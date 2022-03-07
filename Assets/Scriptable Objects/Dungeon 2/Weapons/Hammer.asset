@@ -17,7 +17,7 @@ MonoBehaviour:
   description: Description in room
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: cff29be99a6f1934baa327d838a65e6b, type: 3}
   canPickup: 1
   playOnPickup: {fileID: 0}
   interactions:
@@ -29,5 +29,5 @@ MonoBehaviour:
     actionResponse: {fileID: 0}
   damageRange: {x: 6, y: 9}
   blockAmount: 3
-  maxDurability: 6
-  currentDurability: 6
+  maxDurability: 8
+  currentDurability: 8
