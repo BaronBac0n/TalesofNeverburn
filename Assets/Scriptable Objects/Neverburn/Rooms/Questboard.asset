@@ -21,6 +21,10 @@ MonoBehaviour:
   - keyString: dungeon
     exitDescription: The <color=green>DUNGEON</color> poster stands out
     valueRoom: {fileID: 11400000, guid: c2ed9b591c5180c47ba452cd0ecb08b4, type: 2}
+  - keyString: gemi
+    exitDescription: A poster is talking about the disappearance of animals around
+      <color=green>GEMI</color>.
+    valueRoom: {fileID: 11400000, guid: 4b711383cd7546547b21e27ab12323d4, type: 2}
   - keyString: courtyard
     exitDescription: The <color=green>COURTYARD</color> is behind you
     valueRoom: {fileID: 11400000, guid: 8337cf2cb0ce3fc4d980a31d98df9264, type: 2}
