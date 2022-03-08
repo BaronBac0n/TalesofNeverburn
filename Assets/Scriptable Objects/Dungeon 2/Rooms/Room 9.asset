@@ -20,13 +20,13 @@ MonoBehaviour:
   exits:
   - keyString: east
     exitDescription: To the <color=green>EAST</color> is darkness.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: b11c7f31d1a027e41856670b6b015177, type: 2}
   - keyString: west
     exitDescription: The <color=green>WEST</color> is very bright.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: 10d4a04223ff97543b9d41251445d150, type: 2}
   - keyString: south
     exitDescription: While the <color=green>SOUTH</color> is covered in webs.
-    valueRoom: {fileID: 0}
+    valueRoom: {fileID: 11400000, guid: e1eaadfd3e4d55a4eaf4ff6fe4720980, type: 2}
   roomSprite: {fileID: 21300000, guid: a8b976bfffd4a6e4695d63defd404cea, type: 3}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: dd5c714a8ac07a74cbad0dfe1e917bd4, type: 2}
