@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: 'You''re in the main courtyard of Neverburn
 
-    Enter HELP to see
-    commands'
+    Enter <color=brown>HELP</color>
+    to see commands'
   roomName: courtyard
   exits:
   - keyString: smith

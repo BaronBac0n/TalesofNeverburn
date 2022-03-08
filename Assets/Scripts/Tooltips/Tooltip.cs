@@ -121,10 +121,10 @@ public class Tooltip : MonoBehaviour
     {
         StringBuilder builder = new StringBuilder();
         builder.Append("<size=20>").Append("Commands").Append("</size>").AppendLine();
-        builder.Append("Use 'go <direction>' to move that way. EX: 'go north'. \n \n" +
-            "Use 'examine <item>' to examine an item in a room. EX: 'examine skull'. \n \n" +
-            "Use 'take <item>' to take an item from a room. EX: 'take skull'. \n \n" +
-            "Click on a weapon in your inventory to attack or defend with it. \n \n" +
+        builder.Append("Use '<color=green>go <DIRECTION></color>' to move that way. EX: 'go north'. \n \n" +
+            "Use '<color=blue>examine <ITEM></color>' to examine an item in a room. EX: 'examine skull'. \n \n" +
+            "Use '<color=orange>take <ITEM></color>' to take an item from a room. EX: 'take skull'. \n \n" +
+            "Click on a <color=purple>WEAPON</color> in your inventory to attack or defend with it. \n \n" +
             "Use 'examine room' to see the room's description again.");
 
         infoText.text = builder.ToString();

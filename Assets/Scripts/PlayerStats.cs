@@ -211,16 +211,20 @@ public class PlayerStats : MonoBehaviour
                         controller.LogStringWithReturn("You block with your " + weaponToAttackWith.noun + " and take " + damageToTake + " damage");
                         if (DeathCheck())
                         {
-                            controller.LogStringWithReturn("YOU DIED");
+                            controller.LogStringWithReturn("<color=red>YOU DIED</color>");
                             controller.stateController.gameState = GameStateController.GameState.DEAD;
-                            controller.buttonsPanel.SetActive(true);
+                            controller.buttonsPanel.SetActive(true);                            
+                            UpdateHealthDisplay();
                         }
-                    }
-                    weaponToAttackWith.RemoveDurability(); //Remove durability for blocking
-                    controller.LogStringWithReturn("--------------------------------------");
-                    controller.LogStringWithReturn("What will you do?");
-                    UpdateHealthDisplay();
-                    combatState = CombatState.ATTACKING;
+                        else
+                        {
+                            weaponToAttackWith.RemoveDurability(); //Remove durability for blocking
+                            controller.LogStringWithReturn("--------------------------------------");
+                            controller.LogStringWithReturn("What will you do?");
+                            UpdateHealthDisplay();
+                            combatState = CombatState.ATTACKING;
+                        }
+                    }                   
                 }
                 //update the tooltip to match the new durability
                 Tooltip.instance.HideInfo();
