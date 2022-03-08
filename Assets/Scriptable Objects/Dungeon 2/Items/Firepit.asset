@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71659708ed0b14240b69fb42527ff3b5, type: 3}
   m_Name: Firepit
   m_EditorClassIdentifier: 
-  noun: name
+  noun: firepit
   costToBuy: 0
   description: Description in room
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
+  textWhenUsed: 
   itemSprite: {fileID: 0}
   canPickup: 0
   playOnPickup: {fileID: 0}

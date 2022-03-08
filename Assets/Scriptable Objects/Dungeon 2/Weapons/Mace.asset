@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f3c3cba2e672194985cf5ade9fd414a, type: 3}
   m_Name: Mace
   m_EditorClassIdentifier: 
-  noun: Mace
+  noun: mace
   costToBuy: 70
   description: Description in room
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
+  textWhenUsed: 
   itemSprite: {fileID: 21300000, guid: d476aeaf499e6414aa1cc143ee179535, type: 3}
   canPickup: 1
   playOnPickup: {fileID: 0}
