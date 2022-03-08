@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene(sceneBuildIndex: 0); //just change number to the village scene
+        SceneManager.LoadScene(sceneBuildIndex: 1); //just change number to the village scene
     }
 
     public void QuitGame()
