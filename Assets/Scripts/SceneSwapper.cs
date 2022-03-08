@@ -19,6 +19,9 @@ public class SceneSwapper : MonoBehaviour
     }
     #endregion
 
+    public Room courtyard;
+    public GameObject endButtons, enemyinfoPanel;
+
     //private void Update()
     //{
     //    if(GameObject.FindGameObjectsWithTag("Game Manager").Length > 1)
@@ -27,9 +30,16 @@ public class SceneSwapper : MonoBehaviour
     //    }
     //}
 
-    public void ChangeScene(string name)
+    public void ReturnToVillage()
     {
-        SceneManager.LoadScene(name, LoadSceneMode.Single);
+        GameController.instance.roomNavigation.currentRoom = courtyard;
+        GameController.instance.DisplayRoomText();
+        GameController.instance.DisplayLoggedText();
+        PlayerStats.instance.currentHealth = PlayerStats.instance.maxHealth;
+        PlayerStats.instance.UpdateHealthDisplay();
+        endButtons.SetActive(false);
+        enemyinfoPanel.SetActive(false);
+        GameController.instance.stateController.gameState = GameStateController.GameState.EXPLORING;
     }
 
     public void QuitGame()

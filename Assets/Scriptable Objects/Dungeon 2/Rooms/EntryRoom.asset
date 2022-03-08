@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EntryRoom
   m_EditorClassIdentifier: 
   description: "There have been reports of nearby villages losing pets and livestock.
-    You find yourself in a lightened up cave, with visible blood on the ground.\r"
+    You find yourself in a lit up cave, with visible blood on the ground.\r"
   roomName: Entrance
   exits:
   - keyString: north

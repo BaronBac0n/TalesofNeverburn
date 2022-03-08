@@ -27,7 +27,24 @@ public class InventoryButton : MonoBehaviour
                 Consumable consumableInButton = (Consumable)objectInButton;
                 consumableInButton.UseItem();
             }
+            else if (ObjectCanBeUsed())
+            {
+                GameController.instance.interactableItems.UseItem(objectInButton);
+
+            }
         }
+    }
+
+    public bool ObjectCanBeUsed()
+    {
+        foreach (Interaction inputAction in objectInButton.interactions)
+        {
+            if (inputAction.inputAction.name == "Use")
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void Update() //This is the only update function in the game and i'd like to try get rid of it eventually

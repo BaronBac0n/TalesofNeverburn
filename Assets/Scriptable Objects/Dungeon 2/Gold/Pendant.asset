@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47d8ff3b211d28b418bf9e6a009ecdaa, type: 3}
-  m_Name: Amulet
+  m_Name: Pendant
   m_EditorClassIdentifier: 
-  noun: name
+  noun: pendant
   costToBuy: 0
-  description: Description in room
+  description: On the wall you can see an <color=gold>PENDANT</color>.
   showsDescriptionInRoom: 0
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: 0e123cfdc54a3ca4684816a34167a566, type: 3}
@@ -22,10 +22,10 @@ MonoBehaviour:
   playOnPickup: {fileID: 0}
   interactions:
   - inputAction: {fileID: 11400000, guid: c453f997b2bfb7f45b4fd5687f0a0c3c, type: 2}
-    textResponse: Taking a closer look at the Amulet, you can see an Orc chiseled
+    textResponse: Taking a closer look at the pendant, you can see an Orc chiseled
       nicely on it.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: f6dafd5a66bd3cc408c78d1b14faf5f4, type: 2}
-    textResponse: You grab the amulet.
+    textResponse: You grab the pendant.
     actionResponse: {fileID: 0}
   randomRange: {x: 40, y: 60}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5ecfbfa5aeb5c4996aa652dcc008ae, type: 3}
+  m_Name: Scoripion
+  m_EditorClassIdentifier: 
+  noun: scorpion
+  description: The faint ligh reflects off of a giant <color=red>SCORPION'S</color>
+    shell
+  interactions: []
+  maxHealth: 15
+  currentHealth: -2
+  block: 3
+  damage: {x: 4, y: 8}
+  isAboveHalfHealth: 0
+  isNamed: 0
+  changesRoomOnDeath: 0
+  roomToChangeTo: {fileID: 0}

@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
   m_Name: Room 9
   m_EditorClassIdentifier: 
-  description: 'The room you are in is an expansive part of the dungeon. You see
-    a lot of blood covering the walls, floor. Alongside bones of what you can only
+  description: The room you are in is an expansive part of the dungeon. You see a
+    lot of blood covering the walls, floor. Alongside bones of what you can only
     assume to be either animals or others who have ventured into this part of the
     cave.
-
-
-    On the wall you can see an <color=purple>AMULET</color>.'
   roomName: Room 9
   exits:
   - keyString: east

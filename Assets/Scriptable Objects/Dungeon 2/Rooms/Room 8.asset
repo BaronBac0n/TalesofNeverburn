@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Room 8
   m_EditorClassIdentifier: 
   description: You find yourself in a web-covered room, with very little inside of
-    it. There is a shining in the corner, it seems like <color=yellow>SAPPHIRE</color>.
+    it.
   roomName: Room 8
   exits:
   - keyString: south

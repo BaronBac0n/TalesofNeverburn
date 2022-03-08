@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d8ff3b211d28b418bf9e6a009ecdaa, type: 3}
   m_Name: Sapphire
   m_EditorClassIdentifier: 
-  noun: Sapphire
+  noun: sapphire
   costToBuy: 0
-  description: Description in room
-  showsDescriptionInRoom: 0
+  description: There is a shining in the corner, it seems like <color=yellow>SAPPHIRE</color>.
+  showsDescriptionInRoom: 1
   inventoryDescription: Description for inventory tooltips
   itemSprite: {fileID: 21300000, guid: e7d29a79bc7fae248887c8a08a160303, type: 3}
   canPickup: 1

@@ -18,6 +18,10 @@ public class InteractableObject : ScriptableObject
     public string inventoryDescription = "Description for inventory tooltips";
 
     [Space]
+    [TextArea]
+    public string textWhenUsed;
+
+    [Space]
     public Sprite itemSprite;
     public bool canPickup;
     public AudioClip playOnPickup;

@@ -13,7 +13,7 @@ public class InteractableItems : MonoBehaviour
     public Dictionary<string, string> examineDictionary = new Dictionary<string, string>();
     public Dictionary<string, string> takeDictionary = new Dictionary<string, string>();
 
-    Dictionary<string, ActionResponse> useDictionary = new Dictionary<string, ActionResponse>();
+    public Dictionary<string, ActionResponse> useDictionary = new Dictionary<string, ActionResponse>();
 
     GameController controller;
 
@@ -134,10 +134,10 @@ public class InteractableItems : MonoBehaviour
         return null;
     }
 
-    public void UseItem(string[] seperatedInputWords)
+    public void UseItem(InteractableObject itemToUse)
     {
         PlayerStats playerStats = PlayerStats.instance;
-        string nounToUse = seperatedInputWords[1];
+        string nounToUse = itemToUse.noun;
 
         if (playerStats.nounsInInventory.Contains(nounToUse))
         {
@@ -147,6 +147,13 @@ public class InteractableItems : MonoBehaviour
                 if (!actionResult)
                 {
                     controller.LogStringWithReturn("Hmm. Nothing happens.");
+                    GameController.instance.DisplayLoggedText();
+                }
+                else
+                {
+                    GameController.instance.LogStringWithReturn(itemToUse.textWhenUsed);
+                    GameController.instance.LogStringWithReturn("--------------------------------------");
+                    GameController.instance.DisplayLoggedText();
                 }
             }
             else

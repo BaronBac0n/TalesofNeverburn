@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Room 5
   m_EditorClassIdentifier: 
   description: The room you are in is very open with not much around. In the middle
-    of the room, you see what you assume is a body, but your eyes are drawn towards
-    a <color=red>POTION</color>that sits just away from the body.
+    of the room, you see what you assume is a body.
   roomName: Room 5
   exits:
   - keyString: north

@@ -20,8 +20,8 @@ MonoBehaviour:
     exitDescription: To the <color=green>NORTH</color> is a trail of blood, leading
       back into the cave.
     valueRoom: {fileID: 11400000, guid: b3f5630a67dc23742bb3ded28585a004, type: 2}
-  - keyString: south
-    exitDescription: To the <color=green>SOUTH</color> is the exit.
+  - keyString: village
+    exitDescription: You can see the <color=green>VILLAGE</color> from here
     valueRoom: {fileID: 11400000, guid: 8337cf2cb0ce3fc4d980a31d98df9264, type: 2}
   roomSprite: {fileID: 21300000, guid: 37df2c7d919f7f148be37fee9137c600, type: 3}
   interactableObjectsInRoom:

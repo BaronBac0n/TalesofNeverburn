@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
   m_Name: Room 1
   m_EditorClassIdentifier: 
-  description: You enter a larger room that is lit by a torch on the wall. A basic
-    <color=purple>SHIELD</color> sits in the middle of the room.
+  description: You enter a larger room that is lit by a torch on the wall.
   roomName: Room 1
   exits:
   - keyString: north

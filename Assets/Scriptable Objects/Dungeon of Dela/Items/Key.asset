@@ -17,6 +17,7 @@ MonoBehaviour:
   description: A <color=blue>KEY</color> on a chain hangs around her neck
   showsDescriptionInRoom: 1
   inventoryDescription: An iron key
+  textWhenUsed: You use the key and unlock the door
   itemSprite: {fileID: 21300000, guid: 06399aca05650054592c4322e29c8c07, type: 3}
   canPickup: 1
   playOnPickup: {fileID: 8300000, guid: dff9d198d58403a44984ac9810ee50a6, type: 3}

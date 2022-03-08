@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5ecfbfa5aeb5c4996aa652dcc008ae, type: 3}
   m_Name: Orc 2
   m_EditorClassIdentifier: 
-  noun: Orc
+  noun: orc
   description: "In the middle sits an <color=red>ORC</color>.\r"
   interactions: []
   maxHealth: 28
